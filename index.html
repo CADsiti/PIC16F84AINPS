@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://champytech.github.io/general-files/autoCAD.css">
+    <style>
+        :root {
+            --color: crimson;
+        }
+    </style>
+    <title>PIC16F84AINPS</title>
+</head>
+
+<body>
+    <button id="returnToTopButton" title="Ritorna all'inizio della pagina"
+        onclick="window.location.href='#top'">☝️</button>
+
+    <div class="topnav" id="top">
+        <h1>PIC16F84AINPS</h1>
+        <div id="links">
+            <h2>Indice</h2>
+            - <a href="#intro">Cos'è sto coso</a> <br>
+            - <a href="#features">Caratteristiche</a> <br>
+            - <a href="#registri">Registri</a> <br>
+            - <a href="#comandi">Comandi assembler</a> <br>
+            - <a href="#bug">Perché NON funziona</a> <br>
+            - <a href="#faq">FANQULO</a> <br>
+            <hr>
+        </div>
+    </div>
+
+    <h2 id="intro">Cos'è sto coso</h2>
+
+    <p>
+        Il <br><span class="autocad">PIC16F84A</span><br> è un microcontrollore
+        che sembra progettato apposta per farti odiare
+        l’elettronica, l’informatica e te stesso.
+    </p>
+
+    <p>
+        Ha una potenza di calcolo ridicola, una memoria che finisce
+        mentre stai ancora pensando e una logica interna che punisce
+        <br><span class="autocad">OGNI</span><br> errore con il silenzio totale.
+    </p>
+
+    <p>
+        Non stampa errori.
+        Non avvisa.
+        Non perdona. PORCODD
+    </p>
+
+    <hr>
+
+    <h2 id="features">Caratteristiche</h2>
+
+    - <b>8 bit</b>: perché più di così sarebbe stato troppo umano <br>
+    - <b>68 byte di RAM</b>: meno di un messaggio WhatsApp <br>
+    - <b>1 solo timer</b>: boh <br>
+    - <b>Niente debug</b>: indovina cosa hai sbagliato EHEHEHEH <br>
+
+    <hr>
+
+    <h2 id="registri">Registri</h2>
+
+    <p>
+        Il PIC non ha variabili.
+        Ha <b>registri</b>.
+        E se sbagli registro, il programma diventa un non so cosa.
+    </p>
+
+    - <b>PORTA / PORTB</b>: output? input? dipende da TRIS (ci so giocare) <br>
+    - <b>TRISA / TRISB</b>: se non li setti, salti per aria <br>
+    - <b>STATUS</b>: hai presente lo stato di WhatsApp? Ecco, non centra un cazzo <br>
+    - <b>W</b>: W la cultura <br>
+
+    <p>
+        E poi i <br><span class="autocad">B A N C H I</span><br>
+        Perché avere un solo spazio di memoria quando puoi
+        sbagliare indirizzo ogni 3 istruzioni?
+    </p>
+
+    <hr>
+
+    <h2 id="comandi">Comandi assembler</h2>
+
+    <p>
+        Il linguaggio assembler del PIC è minimalista.
+        Non perché sia elegante, ma per rompere le palle.
+    </p>
+
+    <p>
+        <b>MOVLW k</b><br>
+        Carica una costante in W.
+        Usato 900 volte. Dimenticato 901.
+    </p>
+
+    <p>
+        <b>MOVWF f</b><br>
+        Copia W in un registro. Ah sì?
+    </p>
+
+    <p>
+        <b>BSF f, b</b><br>
+        Mette a 1 un bit.
+        Seee, come no
+    </p>
+
+    <p>
+        <b>BCF f, b</b><br>
+        Mette a 0 un bit.
+        Best Cretino Forever
+    </p>
+
+    <p>
+        <b>GOTO label</b><br>
+        TANA DEI GOTI
+    </p>
+
+    <p>
+        <b>CALL / RETURN</b><br>
+        chiama / ritorna a casa
+    </p>
+
+    <hr>
+
+    <h2 id="bug">Perché NON funziona</h2>
+
+    <p>
+        - LED spento → TRIS sbagliato <br>
+        - LED sempre acceso → PORT sbagliato <br>
+        - Simulazione ok → circuito morto <br>
+        - Funzionava prima → ora no <br>
+        - Non sai perché → è normale
+    </p>
+
+    <p>
+        Debug del PIC16F84A:
+        <span class="autocad">guardare il LED e pregare</span>.
+    </p>
+
+    <hr>
+
+    <h2 id="faq">FANQULO</h2>
+
+    <p>
+        <b>È colpa mia?</b><br>
+        Sì. Anche quando non lo è.
+    </p>
+
+    <p>
+        <b>Perché usiamo ancora questo PIC?</b><br>
+        Tradizione. Sadismo. Programma ministeriale.
+    </p>
+
+    <p>
+        <b>Arduino è meglio?</b><br>
+        Dopo questo, anche un tostapane.
+    </p>
+
+    <hr>
+
+    <h2 id="condividi">Condividi il trauma</h2>
+
+    <p>
+        Se anche tu sei stato traumatizzato dal
+        <span class="autocad">PIC16F84A</span>,
+        condividi questo sito.
+        Il dolore condiviso pesa meno.
+    </p>
+
+    <footer>
+        <p>Made with assembler, odio e caffeina da
+            <b><a href="https://github.com/ChampyTech" target="_blank">ChampyTech</a></b>
+        </p>
+    </footer>
+
+    <button id="themeToggleButton">Dark mode</button>
+    <script src="https://champytech.github.io/general-files/themeToggleButton.js"></script>
+</body>
+
+</html>
