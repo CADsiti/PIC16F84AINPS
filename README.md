@@ -1,4 +1,4 @@
-Ormai lo sai già...
+Sai già come funziona.
 
 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, tempora quod laborum reprehenderit illo minima
 harum, maiores inventore cupiditate consequatur est. Optio delectus maiores corrupti illum consectetur provident?
